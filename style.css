@@ -159,3 +159,57 @@ section {
 .section-container {
     display: flex;
 }
+
+/* Profile Section */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_text {
+    align-self: center;
+    text-align: right;
+}
+
+.section_text p {
+    font-weight: 600;
+}
+
+.section_text_p1 {
+    text-align: left;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: left;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* Buttons */
+
+
